@@ -1,7 +1,7 @@
 Ocular JMS Queries
 ==================
 
-This is a collection of CPGQL queries to help the identification potentially dangerous uses of JMS implementations.
+This is a collection of [CPGQL](https://docs.shiftleft.io/ocular/quickstart) queries for [Ocular](https://ocular.shiftleft.io/) to help the identification potentially dangerous uses of JMS implementations.
 
 Call chains to potential sinks were queried using the following query (aimed at `ObjectInputStream`):
 
