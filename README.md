@@ -3,6 +3,8 @@ Ocular JMS Queries
 
 This is a collection of [CPGQL](https://docs.shiftleft.io/ocular/quickstart) queries for [Ocular](https://ocular.shiftleft.io/) to help the identification potentially dangerous uses of JMS implementations.
 
+Introductory blog post: https://blog.silentsignal.eu/2020/08/17/unexpected-deserialization-pt-1-jms/
+
 Call chains to potential sinks were queried using the following query (aimed at `ObjectInputStream`):
 
 ```
